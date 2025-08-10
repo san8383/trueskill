@@ -312,10 +312,10 @@ class TrueSkill(object):
                              | | | |
                              | | | |
                 perf_layer:  O O O O  (LikelihoodFactor)
-                             | \ / |
+                             | \\ / |
                              |  |  |
            team_perf_layer:  O  O  O  (SumFactor)
-                             \ / \ /
+                             \\ / \\ /
                               |   |
            team_diff_layer:   O   O   (SumFactor)
                               |   |
